@@ -13,7 +13,7 @@ following fields and methods. ◦int length;
 ◦doublegetSalePrice();//Iflength&gt;20feet,5%discount,Otherwise,10%discount.
  */
 import java.util.Scanner;
-public class App {
+public class Main {
     static Scanner S1 = new Scanner(System.in);
     public static void main(String[] args) throws Exception {
         
