@@ -10,7 +10,7 @@ salary again.
  */
 import Employee_Test.Employee_Test;
 import Employee.Employee;
-public class App {
+public class Main {
     public static void main(String[] args) throws Exception {
         Employee_Test ET1 = new Employee_Test();
         Employee E1 = new Employee(ET1.First_Name(), ET1.Last_Name(), ET1.Get_Salary());
