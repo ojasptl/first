@@ -1,8 +1,14 @@
 from setuptools import setup, find_packages
+from pathlib import Path
+
+this_directory = Path(__file__).parent
+long_description = (this_directory / "README.txt").read_text()
 
 setup(
     name = "jackofalltrades",
     packages=find_packages(exclude=["*.tests", "*.txt", "test"]),
+    long_description=long_description,
+    long_description_content_type="text/plain",
     description = """
         Jack of All Trades: A Simple and User-Friendly Machine Learning Toolkit
 
