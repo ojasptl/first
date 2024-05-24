@@ -25,12 +25,10 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project.urls]
-# Replace with your project URL (e.g., GitHub)
 homepage = "https://github.com/lazy-punk/jackofalltrades"
 Documentation = "https://github.com/lazy-punk/jackofalltrades"  # Replace with your documentation URL (coming soon)
 
 [project.classifiers]
-# Adjust development status as needed
 development_status = "3 - Alpha"
 intended_audience = ["Developers", "Education", "Science/Research"]
 license = "MIT"
