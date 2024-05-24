@@ -54,4 +54,13 @@ setup(
                       'tqdm >= 4.66.4'                     
                       ],
     test_suite='test',
-    license = "MIT")
+    license = "MIT",
+    classifiers=[
+        'Development Status :: 3 - Alpha',  # Adjust development status as needed
+        'Intended Audience :: Developers',
+        'Intended Audience :: Education',
+        'Intended Audience :: Science/Research',
+        'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python :: 3',
+        'Topic :: Scientific/Engineering :: Artificial Intelligence',
+        'Topic :: Software Development :: Machine Learning'],)
