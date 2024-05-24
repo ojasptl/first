@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = "jackofalltrades",
-    packages=find_packages(exclude=["*.tests", "*.txt"]),
+    packages=find_packages(exclude=["*.tests", "*.txt", "test"]),
     description = """
         Jack of All Trades: A Simple and User-Friendly Machine Learning Toolkit
 
