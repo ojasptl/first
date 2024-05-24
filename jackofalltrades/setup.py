@@ -53,4 +53,5 @@ setup(
                       'jax[cpu] >= 0.4.28',
                       'tqdm >= 4.66.4'                     
                       ],
+    test_suite='test',
     license = "MIT")
