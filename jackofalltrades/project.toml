@@ -1,0 +1,38 @@
+[project]
+name = "jackofalltrades"
+version = "0.0.1"
+description = """
+Tired of complex machine learning libraries? Introducing jackofalltrades, a streamlined Python package designed to make machine learning accessible for everyone.
+
+**What sets jackofalltrades apart?**
+
+- Simplicity: We prioritize clear, concise functions with minimal parameters and intuitive interfaces.
+- Ease of Use: Get started quickly with our well-documented functions and a focus on straightforward implementation.
+- Core Machine Learning Algorithms: Built-in implementations for essential algorithms like linear regression, classification models (coming soon!), and more.
+- Compatibility: Seamlessly work with data formats used by popular libraries like scikit-learn.
+
+**Ideal for:**
+
+- Beginners eager to learn machine learning fundamentals.
+- Experienced users seeking a simpler alternative for quick experimentation.
+- Educators looking for a user-friendly teaching tool.
+
+Embrace simplicity and unlock the power of machine learning with jackofalltrades!
+"""
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+# Replace with your project URL (e.g., GitHub)
+homepage = "https://github.com/lazy-punk/jackofalltrades"
+Documentation = "https://github.com/lazy-punk/jackofalltrades"  # Replace with your documentation URL (coming soon)
+
+[project.classifiers]
+# Adjust development status as needed
+development_status = "3 - Alpha"
+intended_audience = ["Developers", "Education", "Science/Research"]
+license = "MIT"
+programming_language = "Python :: 3"
+topic = ["Scientific/Engineering :: Artificial Intelligence", "Topic :: Software Development :: Machine Learning"]
