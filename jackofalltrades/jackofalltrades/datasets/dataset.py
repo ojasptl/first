@@ -20,7 +20,6 @@ class get_dataset:
             file_path = pkg_resources.resource_filename('jackofalltrades', 'datasets/BTC-USD.csv')
             df = pd.read_csv(file_path)
             cols = df.columns
-            print(df.shape)
             for i in cols:
                   if df[i].dtype == object:
                         df.drop(columns=[i], inplace=True)

@@ -59,7 +59,8 @@ setup(
                       'jax[cpu] >= 0.4.28',
                       'tqdm >= 4.66.4'                     
                       ],
-    package_data={'jackofalltrades': ['datasets/*.csv']},
+    package_data={'jackofalltrades': ['datasets/*.csv','*.txt']},
+    include_package_data=True,
     test_suite='test',
     license = "MIT",
     classifiers=[

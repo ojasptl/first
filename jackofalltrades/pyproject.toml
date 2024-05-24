@@ -1,6 +1,7 @@
 [project]
 name = "jackofalltrades"
 version = "0.0.1"
+readme = "README.txt"
 description = """
 Tired of complex machine learning libraries? Introducing jackofalltrades, a streamlined Python package designed to make machine learning accessible for everyone.
 
